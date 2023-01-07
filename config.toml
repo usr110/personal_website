@@ -1,4 +1,4 @@
-baseURL = "aabbas.netlify.app"
+baseURL = "https://aabbas.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Personal Website"
@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  orgName = "Ali Abbas"
+  orgLocal = ""
+  description = "Personal website of Ali Abbas."
   favicon = "/img/favicon.ico"
   logo = "/img/logo.png"
   mainSections = ["blog", "project", "talk"]
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "poppy"
+  theme = "plum"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -103,7 +103,7 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Ali Abbas"
     url = "/about/"
     weight = 1
   [[menu.header]]
